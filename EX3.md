@@ -1,6 +1,7 @@
 # EX 3 SubQueries, Views and Joins 
-
-
+## Date: 18/08/23
+## AIM: 
+To create a manager database and execute DML queries using SQL.
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
@@ -205,4 +206,5 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 ### Right Join:
 
 ![270773439-43cc7093-35af-4c4b-8854-068a0f0b34d1](https://github.com/22008539/EX-3-SubQueries-Views-and-Joins/assets/118707617/5379867e-4fbe-4adb-8453-f1e494f75988)
-
+## RESULT:
+Hence successfully created a manager database and execute DML queries using SQL.
